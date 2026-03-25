@@ -3,4 +3,5 @@ def sayHello(name):
     return 'Hello, ' + name + '!'
     
 inName = 'Tom'
-print(sayHello(inName))
+lastName = 'Brown'
+print(sayHello(inName + ' ' + lastName))
